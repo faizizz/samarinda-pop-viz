@@ -28,16 +28,6 @@ const MapView = ({ defaultUrl = 'https://faizizz.github.io/WEB_GIS_Pemilu-Bali_P
         title="Peta Kepadatan Penduduk Samarinda"
         allowFullScreen
       />
-      <div className="absolute top-4 right-4 z-10">
-        <Button
-          variant="secondary"
-          size="sm"
-          onClick={() => setUrlSubmitted(false)}
-          className="shadow-md"
-        >
-          Ganti URL Peta
-        </Button>
-      </div>
     </div>
   );
 };
