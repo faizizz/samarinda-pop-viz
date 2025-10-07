@@ -2,16 +2,16 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 const data = [
-  { kecamatan: 'Samarinda Ilir', populasi: 180000, kepadatan: 'sangat-tinggi' },
-  { kecamatan: 'Samarinda Ulu', populasi: 125000, kepadatan: 'tinggi' },
-  { kecamatan: 'Samarinda Seberang', populasi: 110000, kepadatan: 'tinggi' },
-  { kecamatan: 'Samarinda Utara', populasi: 95000, kepadatan: 'sedang' },
-  { kecamatan: 'Loa Janan Ilir', populasi: 78000, kepadatan: 'sedang' },
-  { kecamatan: 'Palaran', populasi: 52000, kepadatan: 'rendah' },
-  { kecamatan: 'Sambutan', populasi: 68000, kepadatan: 'sedang' },
-  { kecamatan: 'Sungai Pinang', populasi: 72000, kepadatan: 'sedang' },
-  { kecamatan: 'Samarinda Kota', populasi: 88000, kepadatan: 'tinggi' },
-  { kecamatan: 'Sungai Kunjang', populasi: 92000, kepadatan: 'tinggi' },
+  { kecamatan: 'Palaran', populasi: 68600, kepadatan: 'sedang' },
+  { kecamatan: 'Samarinda Ilir', populasi: 69400, kepadatan: 'sedang' },
+  { kecamatan: 'Samarinda Kota', populasi: 34700, kepadatan: 'rendah' },
+  { kecamatan: 'Sambutan', populasi: 58100, kepadatan: 'rendah' },
+  { kecamatan: 'Samarinda Seberang', populasi: 66300, kepadatan: 'sedang' },
+  { kecamatan: 'Loa Janan Ilir', populasi: 68100, kepadatan: 'sedang' },
+  { kecamatan: 'Sungai Kunjang', populasi: 139700, kepadatan: 'sangat-tinggi' },
+  { kecamatan: 'Samarinda Ulu', populasi: 140000, kepadatan: 'sangat-tinggi' },
+  { kecamatan: 'Samarinda Utara', populasi: 107000, kepadatan: 'tinggi' },
+  { kecamatan: 'Sungai Pinang', populasi: 106300, kepadatan: 'tinggi' },
 ];
 
 const getColor = (kepadatan: string) => {
