@@ -8,7 +8,7 @@ interface MapViewProps {
   defaultUrl?: string;
 }
 
-const MapView = ({ defaultUrl = 'https://faizizz.github.io/WEB_GIS_Pemilu-Bali_Praktikum/#9/-7.9192/114.4446' }: MapViewProps) => {
+const MapView = ({ defaultUrl = 'https://faizizz.github.io/MPSIG2-QGIS2Web/#11/-0.5613/117.2619' }: MapViewProps) => {
   const [iframeUrl, setIframeUrl] = useState(defaultUrl);
   const [urlInput, setUrlInput] = useState(defaultUrl);
   const [urlSubmitted, setUrlSubmitted] = useState(!!defaultUrl);
