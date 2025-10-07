@@ -1,10 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const densityLevels = [
-  { label: 'Sangat Tinggi', color: '#ef4444', range: '> 15,000/km²' },
-  { label: 'Tinggi', color: '#f97316', range: '10,000 - 15,000/km²' },
-  { label: 'Sedang', color: '#eab308', range: '5,000 - 10,000/km²' },
-  { label: 'Rendah', color: '#22c55e', range: '< 5,000/km²' },
+  { label: 'Sangat Jarang', color: '#ffffff', range: '≤ 310/km²' },
+  { label: 'Jarang', color: '#ffbfbf', range: '310 - 2,608/km²' },
+  { label: 'Sedang', color: '#ff8080', range: '2,608 - 3,245/km²' },
+  { label: 'Padat', color: '#ff4040', range: '3,245 - 5,308/km²' },
+  { label: 'Sangat Padat', color: '#ff0000', range: '5,308 - 6,328/km²' },
 ];
 
 const DensityLegend = () => {
