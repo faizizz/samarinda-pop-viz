@@ -29,9 +29,9 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <StatsCard
             title="Total Populasi"
-            value="960,000"
+            value="858,079"
             icon={Users}
-            trend={{ value: 2.3, isPositive: true }}
+            trend={{ value: 0.9, isPositive: true }}
           />
           <StatsCard
             title="Jumlah Kecamatan"
@@ -40,15 +40,14 @@ const Index = () => {
           />
           <StatsCard
             title="Kepadatan Rata-rata"
-            value="8,450/km²"
+            value="2,911 jiwa/km²"
             icon={Building2}
-            trend={{ value: 1.8, isPositive: true }}
           />
           <StatsCard
             title="Pertumbuhan Tahunan"
-            value="2.3%"
+            value="0.9%"
             icon={TrendingUp}
-            trend={{ value: 0.5, isPositive: true }}
+            trend={{ value: 0.9, isPositive: true }}
           />
         </div>
 
